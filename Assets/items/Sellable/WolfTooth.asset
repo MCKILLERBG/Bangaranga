@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WolfTooth
   m_EditorClassIdentifier: 
   itemName: Wolf Tooth
-  description: 
+  description: Tooth taken from a wolf
   itemId: 4
   value: 10

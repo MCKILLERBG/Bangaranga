@@ -252,8 +252,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0.000011444, y: 15.714}
+  m_SizeDelta: {x: 298.522, y: 121.428}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &351393496
 GameObject:
@@ -1663,6 +1663,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3432807642442958139, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
+      propertyPath: xpReward
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432807642442958139, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432807642442958139, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
+      propertyPath: goldReward
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4302133827499178926, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
       propertyPath: m_Name
       value: Enemy (10)
@@ -2228,8 +2240,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: 25}
+  m_SizeDelta: {x: 464.531, y: 257.635}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2091499578
 PrefabInstance:
@@ -2324,8 +2336,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.000011444, y: -43.547}
+  m_SizeDelta: {x: 256.059, y: 57.094}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2123299132
 MonoBehaviour:
@@ -2565,6 +2577,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3432807642442958139, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
+      propertyPath: xpReward
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432807642442958139, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432807642442958139, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
+      propertyPath: goldReward
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3432807642442958139, guid: 9d98d72625b15fb46b2663dd7a1b9036, type: 3}
       propertyPath: playerStats
       value: 

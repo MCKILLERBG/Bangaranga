@@ -15,5 +15,5 @@ MonoBehaviour:
   itemName: Iron Sword
   description: A simple iron sword
   itemId: 2
-  value: 0
+  value: 10
   damage: 10

@@ -28,7 +28,7 @@ public class PlayerTarget : MonoBehaviour
         if (targetIndicator != null)
         {
             targetIndicator.transform.SetParent(currentTarget.transform);
-
+    
             targetIndicator.transform.localPosition = Vector3.zero;
 
             targetIndicator.SetActive(true);
