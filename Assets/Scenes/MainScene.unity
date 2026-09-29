@@ -519,6 +519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseDamage: 20
   attackRange: 6
+  attackCooldown: 1
 --- !u!1 &383752423
 GameObject:
   m_ObjectHideFlags: 0

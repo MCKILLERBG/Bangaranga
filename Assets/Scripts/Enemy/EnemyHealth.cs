@@ -37,6 +37,7 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        Debug.Log($"enemy HP: {currentHealth}/{maxHealth}");
 
         if (currentHealth <= 0)
         {
