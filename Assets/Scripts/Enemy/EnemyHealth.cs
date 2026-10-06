@@ -17,7 +17,8 @@ public class EnemyHealth : MonoBehaviour
     private Collider2D enemyCollider;
     private EnemyController enemyController;
 
-    public bool IsDead { get; private set; }
+    public bool IsDead {get; private set;}
+    public bool IsUntargetable {get; private set;}
 
     private int currentHealth;
     void Start()
@@ -54,6 +55,8 @@ public class EnemyHealth : MonoBehaviour
         }
 
         IsDead = true;
+
+        enemyController.ResetEnemyState();
 
         if (playerTarget != null && playerTarget.CurrentTarget == this)
         {
@@ -93,5 +96,19 @@ public class EnemyHealth : MonoBehaviour
         spriteRenderer.enabled = true;
         enemyCollider.enabled = true;
         enemyController.enabled = true;
+    }
+    public void StartLeash()
+    {
+        currentHealth = maxHealth;
+        IsUntargetable = true;
+
+        if (playerTarget != null && playerTarget.CurrentTarget == this)
+        {
+            playerTarget.ClearTarget();
+        }
+    }
+    public void EndLeash()
+    {
+        IsUntargetable = false;
     }
 }

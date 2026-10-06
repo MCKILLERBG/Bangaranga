@@ -49,6 +49,11 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
 
+        if (target.IsUntargetable)
+        {
+            return;
+        }
+
         float distanceToTarget = Vector2.Distance(transform.position, target.transform.position);
 
         if (distanceToTarget > attackRange)
